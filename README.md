@@ -56,6 +56,40 @@ AIは便利です。でも使い方を間違えると、「持ち主に都合の
 
 ---
 
+## 引用 (Citation)
+
+本リポジトリは **Software Heritage** に永久アーカイブされ、**SWHID（永続識別子）** が発行されています。学術論文や公的文書で引用される際は、以下をご利用ください。
+
+**SWHID:**
+
+```
+swh:1:dir:d292d5aead2448877f2b6965ed5e5c61822e8e3b
+```
+
+**BibTeX:**
+
+```bibtex
+@software{kurokoshiki_2026,
+  author    = {Teshigawara, Yu},
+  title     = {{Kuroko-shiki: Three-Party AI Decision Method}},
+  year      = {2026},
+  publisher = {Imperial Messenger Co., Ltd.},
+  url       = {https://github.com/imperial-messenger/kuroko-shiki},
+  note      = {swh:1:dir:d292d5aead2448877f2b6965ed5e5c61822e8e3b},
+}
+```
+
+**先取権 (prior art) の4重証明:**
+
+| 層 | 内容 |
+|---|---|
+| GitHub | 公開リポジトリのコミット履歴 |
+| Software Heritage | 国際公的アーカイブ + SWHID（INRIA / UNESCO） |
+| OpenTimestamps | 暗号学的時刻証明（`SHA256SUMS.ots`） |
+| Bitcoin Blockchain | Block #951844 / #951846 への二重アンカー |
+
+---
+
 ## ライセンスと名称について
 
 - この方法論は **CC BY 4.0** のもとで、誰でも自由に使えます（出典表示をお願いします）。
